@@ -1,3 +1,6 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
+
 body,
 h1,
 h2,
@@ -9,7 +12,7 @@ ul {
 
 /* Set a background color for the entire page */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(10, 135, 84)
 }
 
@@ -17,9 +20,10 @@ body {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(80, 140, 164);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
 
 /* Style the section headings */
@@ -69,12 +73,15 @@ section {
 
 /* Style the header */
 header {
-    background-color: rgb(165, 136, 54) text-align: center;
+    background-color: rgb(165, 136, 54);
+    text-align: center;
     padding: 20px 0;
 }
 
-header h1 {
-    font-size: 36px;
+#logo {
+    font-family: 
+    font-size: 40px;
+
 }
 
 
