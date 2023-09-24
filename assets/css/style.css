@@ -13,15 +13,15 @@ ul {
 /* Set a background color for the entire page */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(10, 135, 84)
+    background-color: rgb(58, 125, 68)
 }
 
 /* Style the main content container */
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 5% auto;
     padding: 30px;
-    background-color: rgb(80, 140, 164);
+    background-color: rgb(37, 77, 50);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
@@ -29,15 +29,15 @@ main {
 /* Style the section headings */
 h2 {
     font-size: 24px;
-    color: rgb(191, 215, 234);
+    color: rgb(24, 29, 39);
     margin-bottom: 20px;
 }
 
 /* Style the paragraphs */
-p {
+section p {
     font-size: 16px;
     line-height: 1.5;
-    color: rgb(191, 215, 234);
+    color: rgb(24, 29, 39);
     margin-bottom: 15px;
 }
 
@@ -78,7 +78,7 @@ section {
 
 /* Style the header */
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(208, 219, 151);
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -95,10 +95,16 @@ header img {
     height: auto;
 }
 
+.maintitle {
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+}
+
 nav a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: rgba(0, 128, 0, 0.7);
+    background-color: rgba(10, 135, 84, 0.9);
     font-size: 1.3rem;
     color: white;
     border: none;
@@ -107,13 +113,14 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(0, 128, 0, 1);
+    background-color: rgba(10, 135, 84, 1);
 }
 
 
 /* Style the footer */
 footer {
-    background-color: rgb(80, 140, 164) text-align: center;
+    background-color: rgb(208, 219, 151);
+    text-align: center;
     padding: 20px 0;
 }
 
