@@ -12,7 +12,6 @@ p {
 /* Set a background color for the entire page */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(58, 125, 68);
 }
 
 /* Style the main content container */
@@ -20,8 +19,8 @@ main {
     max-width: 80%;
     margin: 5% auto;
     padding: 30px;
-    background-color: rgb(37, 77, 50);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(64, 145, 108);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
 }
 
@@ -51,7 +50,7 @@ section {
 
 /* Style the header */
 header {
-    background-color: rgb(208, 219, 151);
+    background-color: rgb(27, 67, 50);
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -78,7 +77,7 @@ header img {
 nav a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: rgba(10, 135, 84, 0.9);
+    background-color: rgba(113, 131, 85, 1);
     font-size: 1.3rem;
     color: white;
     border: none;
@@ -87,7 +86,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(10, 135, 84, 1);
+    background-color: rgba(113, 131, 85, 0.8);
 }
 
 .issue-container {
@@ -106,7 +105,7 @@ nav a:hover {
 
 .info-container {
     flex: 1;
-    background-color: rgb(208, 219, 151);
+    background-color: rgb(116, 198, 157);
     padding: 10px;
     border-radius: 10px;
     max-height: 100%;
@@ -122,7 +121,7 @@ nav a:hover {
 .link-button {
     text-decoration: none;
     padding: 5px 10px;
-    background-color: rgb(10, 135, 84);
+    background-color: rgb(135, 152, 106);
     color: white;
     border: none;
     border-radius: 5px;
@@ -134,7 +133,7 @@ nav a:hover {
 }
 
 .link-button:hover {
-    background-color: rgb(8, 108, 67);
+    background-color: rgb(113, 131, 85);
 }
 
 /* Style the footer */
