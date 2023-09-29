@@ -12,7 +12,7 @@ p {
 /* Set a background color for the entire page */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(58, 125, 68)
+    background-color: rgb(58, 125, 68);
 }
 
 /* Style the main content container */
@@ -92,9 +92,8 @@ nav a:hover {
 
 .image-link-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 45%;
+    align-items: flex-start;
+    max-width: 95%;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -103,6 +102,21 @@ nav a:hover {
     max-width: 50%;
     height: auto;
     border-radius: 10px;
+}
+
+.info-container {
+    flex: 1;
+    background-color: rgb(208, 219, 151);
+    padding: 10px;
+    border-radius: 10px;
+    max-height: 100%;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.description {
+    text-align: center;
+    margin: 10px 0;
 }
 
 .link-button {
@@ -114,6 +128,8 @@ nav a:hover {
     border-radius: 5px;
     font-size: 14px;
     text-align: center;
+    display: block;
+    margin-top: 10px;
 }
 
 .link-button:hover {
@@ -139,14 +155,12 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 934px) {
     .image-link-container {
         flex-direction: column;
-        /* Stack image-link containers vertically on smaller screens */
         align-items: flex-start;
-        /* Align buttons to the left on smaller screens */
     }
 
-    .image {
+    .image-link-container .image {
         max-width: 100%;
     }
