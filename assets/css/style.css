@@ -90,7 +90,7 @@ nav a:hover {
     background-color: rgba(10, 135, 84, 1);
 }
 
-.image-link-container {
+.issue-container {
     display: flex;
     align-items: flex-start;
     max-width: 95%;
@@ -129,7 +129,8 @@ nav a:hover {
     font-size: 14px;
     text-align: center;
     display: block;
-    margin-top: 10px;
+    margin: 10px auto;
+    max-width: 50%;
 }
 
 .link-button:hover {
@@ -156,11 +157,11 @@ footer {
 
 /* Media Queries */
 @media (max-width: 934px) {
-    .image-link-container {
+    .issue-container {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .image-link-container .image {
+    .issue-container .image {
         max-width: 100%;
     }
