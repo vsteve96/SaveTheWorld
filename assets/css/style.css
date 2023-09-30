@@ -19,7 +19,7 @@ main {
     max-width: 80%;
     margin: 5% auto;
     padding: 30px;
-    background-color: rgb(64, 145, 108);
+    background-color: rgb(27, 67, 50);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
 }
@@ -27,7 +27,7 @@ main {
 /* Style the section headings */
 h2 {
     font-size: 24px;
-    color: rgb(24, 29, 39);
+    color: rgb(32, 69, 41);
     margin-bottom: 20px;
 }
 
@@ -35,7 +35,6 @@ h2 {
 section p {
     font-size: 16px;
     line-height: 1.5;
-    color: rgb(24, 29, 39);
     margin-bottom: 15px;
 }
 
@@ -45,7 +44,7 @@ section {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 15px;
-    background-color: #f9f9f9;
+    background-color: rgb(249, 249, 249);
 }
 
 /* Style the header */
@@ -70,14 +69,14 @@ header img {
 
 .maintitle {
     font-size: 16px;
-    color: black;
+    color: rgb(51, 51, 51);
     margin-left: 20px;
 }
 
 nav a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: rgba(113, 131, 85, 1);
+    background-color: rgb(84, 97, 55);
     font-size: 1.3rem;
     color: white;
     border: none;
@@ -86,7 +85,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(113, 131, 85, 0.8);
+    background-color: rgb(68, 83, 47);
 }
 
 .issue-container {
@@ -105,7 +104,8 @@ nav a:hover {
 
 .info-container {
     flex: 1;
-    background-color: rgb(116, 198, 157);
+    background-color: rgb(27, 67, 50);
+    color:rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
     max-height: 100%;
@@ -122,7 +122,7 @@ nav a:hover {
     text-decoration: none;
     padding: 5px 10px;
     background-color: rgb(135, 152, 106);
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 14px;
@@ -138,7 +138,7 @@ nav a:hover {
 
 /* Style the footer */
 footer {
-    background-color: rgb(208, 219, 151);
+    background-color: rgb(27, 67, 50);
     text-align: center;
     padding: 20px 0;
 }
