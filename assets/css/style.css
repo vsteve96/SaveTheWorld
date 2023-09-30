@@ -11,11 +11,17 @@ p {
 
 /* Set a background color for the entire page */
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Style the main content container */
 main {
+    flex-grow: 1;
     max-width: 80%;
     margin: 5% auto;
     padding: 30px;
@@ -88,7 +94,7 @@ nav a:hover {
     background-color: rgb(68, 83, 47);
 }
 
-.issue-container {
+.main-container {
     display: flex;
     align-items: flex-start;
     max-width: 95%;
@@ -156,11 +162,11 @@ footer {
 
 /* Media Queries */
 @media (max-width: 934px) {
-    .issue-container {
+    .main-container {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .issue-container .image {
+    .main-container .image {
         max-width: 100%;
     }
