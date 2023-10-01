@@ -31,14 +31,14 @@ main {
 
 /* Style the section headings */
 h2 {
-    font-size: 24px;
+    font-size: 30px;
     color: rgb(32, 69, 41);
     margin-bottom: 20px;
 }
 
 /* Style the paragraphs */
 section p {
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -83,7 +83,7 @@ nav a {
     padding: 10px 20px;
     background-color: rgb(84, 97, 55);
     font-size: 1.3rem;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     margin-right: 15px;
@@ -125,6 +125,7 @@ nav a:hover {
 .description {
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
 
 .description li {
@@ -165,8 +166,14 @@ footer {
     border-top-right-radius: 10px;
 }
 
+footer p {
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+}
+
 #social-networks {
     text-align: center;
+    list-style-type: none;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
@@ -174,6 +181,7 @@ footer {
 
 #social-networks a {
     font-size: 24px;
+    color: white;
 }
 
 /* Media Queries */
