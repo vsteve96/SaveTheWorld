@@ -21,7 +21,7 @@ body {
 
 /* Style the main content container */
 main {
-    max-width: 80%;
+    max-width: 95%;
     margin: 5% auto;
     padding: 30px;
     background-color: rgb(27, 67, 50);
@@ -96,7 +96,7 @@ nav a:hover {
 .image {
     max-width: 50%;
     display: flex;
-    flex: 1;
+    justify-content: flex-start;
     height: auto;
     border-radius: 10px;
 }
@@ -168,7 +168,7 @@ footer {
 
 footer p {
     color:rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 1.2em;
 }
 
 #social-networks {
