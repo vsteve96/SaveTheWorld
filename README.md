@@ -12,7 +12,7 @@ The EarthSavers website is intended to raise awareness about pressing environmen
 
 ## Features
 
-The EarthSavers website offers a range of features to help you explore environmental issues and take action:
+The EarthSavers website offers a range of features to help explore environmental issues and take action:
 
 - **Informative Articles:** Visitors can access in-depth articles on critical environmental challenges, including climate change, deforestation, pollution, and biodiversity loss.
 
