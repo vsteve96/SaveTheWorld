@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
 }
 
 /* Style the main content container */
@@ -119,7 +120,7 @@ nav a:hover {
     padding: 20px;
     border-radius: 10px;
     max-height: 100%;
-    width: auto;
+    width: 100%;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -214,65 +215,71 @@ nav a:hover {
     background-color: rgb(228, 1, 1);
     cursor: pointer;
 }
-    /* Style the footer */
-    footer {
-        background-color: rgb(27, 67, 50);
-        text-align: center;
-        padding: 20px 0;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+
+option:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Style the footer */
+footer {
+    background-color: rgb(27, 67, 50);
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#social-networks {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-networks a {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+#social-networks a:hover {
+    color: rgb(228, 1, 1)
+}
+
+/* Media Queries */
+@media (max-width: 1220px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
     }
 
-    footer p {
-        color: rgb(255, 255, 255);
-        font-size: 1em;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    .main-container .image {
+        max-width: 100%;
     }
 
-    #social-networks {
-        text-align: center;
-        list-style-type: none;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
+    nav {
+        /* Stack nav buttons vertically on smaller screens */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    #social-networks a {
-        font-size: 24px;
-        color: rgb(255, 255, 255);
+    /* Make navigation buttons smaller on smaller screens */
+    nav a {
+        margin-right: 15px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        font-size: 1.3rem;
+        /* Prevent buttons hiding each other when clipping */
+        line-height: 50px;
     }
-
-    #social-networks a:hover {
-        color: rgb(228, 1, 1)
-    }
-
-    /* Media Queries */
-    @media (max-width: 1220px) {
-        .main-container {
-            flex-direction: column;
-            align-items: center;
-            max-width: 90%;
-        }
-
-        .main-container .image {
-            max-width: 100%;
-        }
-
-        nav {
-            /* Stack nav buttons vertically on smaller screens */
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        /* Make navigation buttons smaller on smaller screens */
-        nav a {
-            margin-right: 15px;
-            margin-bottom: 10px;
-            padding: 5px 10px;
-            font-size: 1.3rem;
-            /* Prevent buttons hiding each other when clipping */
-            line-height: 50px;
-        }
+}
