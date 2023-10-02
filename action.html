@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title -->
     <title>EarthSavers</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
@@ -14,14 +18,15 @@
     <!-- Header -->
     <header>
       <a href="index.html">
-        <img src="assets/images/leaflogo.png" alt="Save The World logo" />
+        <img src="assets/images/leaflogo.png" alt="Save The World logo" id="logo" >
         <p class="maintitle">EarthSavers</p>
       </a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="lifestyle.html">Lifestyle</a>
-        <a href="stories.html">Stories</a>
-      </nav>
+    <nav>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="lifestyle.html"><i class="fa-solid fa-heart-pulse"></i> Lifestyle</a>
+        <a href="stories.html"><i class="fa-solid fa-book"></i> Stories</a>
+        <a href="action.html"><i class="fa-solid fa-hand-point-up"></i> Take Action!</a>
+    </nav>
     </header>
 
     <main>
@@ -31,50 +36,82 @@
           Ready to make a difference? Join us in our efforts to save the Earth.
           Whether you want to participate in local environmental initiatives or
           support global conservation organizations, there are countless ways to
-          get involved.
+          get involved. Fill out the form below, so we can contact you about opportunities in your area!
         </p>
-        <button><a href="#">Get Involved</a></button>
+        <section id="action-form" class="form-container">
+            <h2 class="form-heading">Take Environmental Action</h2>
+            <form action="submit_action.php" method="POST">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+        
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+        
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+        
+                <label for="action-type">Preferred action area:</label>
+                <select id="action-type" name="action-type">
+                    <option value="cleanup">Community Cleanup</option>
+                    <option value="reforestation">Reforestation</option>
+                    <option value="conservation">Wildlife Conservation</option>
+                    <option value="advocacy">Environmental Advocacy</option>
+                </select>
+                <label for="frequency">Frequency:</label>
+                <label for="one-time">One-Time</label>
+                <input type="radio" id="one-time" name="frequency" value="one-time">
+                <label for="weekly">Weekly</label>
+                <input type="radio" id="weekly" name="frequency" value="weekly">
+                <label for="monthly">Monthly</label>
+                <input type="radio" id="monthly" name="frequency" value="monthly">
+                <label for="quarterly">Quarterly</label>
+                <input type="radio" id="quarterly" name="frequency" value="quarterly">
+                </div>
+
+                <label for="availability">Availability:</label>
+                <select id="availability" name="availability">
+                    <option value="weekdays">Weekdays</option>
+                    <option value="weekends">Weekends</option>
+                    <option value="weekdays-weekends">Weekdays and Weekends</option>
+                </select>
+
+                <label for="transportation">Preferred transportation:</label>
+                <label for="carpool">Carpool</label>
+                <input type="checkbox" id="carpool" name="transportation" value="carpool">
+                <label for="public-transport">Public Transport</label>
+                <input type="checkbox" id="public-transport" name="transportation" value="public-transport">
+                
+                <label for="comments">Comments/Message:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
       </section>
     </main>
     <footer>
-      <ul id="social-networks">
-        <li>
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.twitter.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Twitter page (opens in a new tab)"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Youtube page (opens in a new tab)"
-            ><i class="fa-brands fa-youtube"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Instagram page (opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-      </ul>
+        <p>Connect with us through our social media channels!</p>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
+    <script src="https://kit.fontawesome.com/915e9d9384.js" crossorigin="anonymous"></script>
   </body>
 </html>

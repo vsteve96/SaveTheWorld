@@ -162,65 +162,117 @@ nav a:hover {
     background-color: rgb(228, 1, 1);
 }
 
-/* Style the footer */
-footer {
-    background-color: rgb(27, 67, 50);
-    text-align: center;
-    padding: 20px 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+/* Style the take action form */
+.form-container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer p {
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-#social-networks {
-    text-align: center;
-    list-style-type: none;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#social-networks a {
+/* Style the form heading */
+.form-heading {
+    color: rgb(32, 69, 41);
     font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style form labels */
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(32, 69, 41);
+}
+
+/* Style form inputs, select, and textarea */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.submit-button {
+    padding: 10px 20px;
+    background-color: rgb(84, 97, 55);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
+    margin-top: 10px;
 }
 
-#social-networks a:hover {
-    color: rgb(228, 1, 1)
+.submit-button:hover {
+    background-color: rgb(228, 1, 1);
+    cursor: pointer;
 }
-
-/* Media Queries */
-@media (max-width: 1220px) {
-    .main-container {
-        flex-direction: column;
-        align-items: center;
-        max-width: 90%;
+    /* Style the footer */
+    footer {
+        background-color: rgb(27, 67, 50);
+        text-align: center;
+        padding: 20px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
-    .main-container .image {
-        max-width: 100%;
+    footer p {
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
-    nav {
-        /* Stack nav buttons vertically on smaller screens */
-        flex-direction: column;
-        align-items: flex-start;
+    #social-networks {
+        text-align: center;
+        list-style-type: none;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
     }
 
-    /* Make navigation buttons smaller on smaller screens */
-    nav a {
-        margin-right: 15px;
-        margin-bottom: 10px;
-        padding: 5px 10px;
-        font-size: 1.3rem;
-        /* Prevent buttons hiding each other when clipping */
-        line-height: 50px;
+    #social-networks a {
+        font-size: 24px;
+        color: rgb(255, 255, 255);
     }
+
+    #social-networks a:hover {
+        color: rgb(228, 1, 1)
+    }
+
+    /* Media Queries */
+    @media (max-width: 1220px) {
+        .main-container {
+            flex-direction: column;
+            align-items: center;
+            max-width: 90%;
+        }
+
+        .main-container .image {
+            max-width: 100%;
+        }
+
+        nav {
+            /* Stack nav buttons vertically on smaller screens */
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Make navigation buttons smaller on smaller screens */
+        nav a {
+            margin-right: 15px;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            font-size: 1.3rem;
+            /* Prevent buttons hiding each other when clipping */
+            line-height: 50px;
+        }
