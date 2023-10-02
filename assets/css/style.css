@@ -85,7 +85,7 @@ header {
 
 nav a {
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: rgb(84, 97, 55);
     font-size: 1.3rem;
     color: rgb(255, 255, 255);
@@ -216,8 +216,10 @@ footer p {
 
     /* Make navigation buttons smaller on smaller screens */
     nav a {
-        margin-right: 10px;
+        margin-right: 15px;
         margin-bottom: 10px;
         padding: 5px 10px;
         font-size: 1.3rem;
+        /* Prevent buttons hiding each other when clipping */
+        line-height: 50px;
     }
