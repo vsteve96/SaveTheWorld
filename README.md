@@ -22,9 +22,6 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - **Responsive Layout:** The layout is created so visitors can experience effortless browsing across a range of devices, such as desktop computers, tablets, and mobile phones.
 
-- **Get Involved:** Visitors can find opportunities to get involved in environmental initiatives, volunteer programs, and local events.
-
-
 ## Take Action Form
 
 - This page includes a form that users can fill out to express their interest in environmental action.
@@ -36,10 +33,16 @@ The EarthSavers website offers a range of features to help explore environmental
 ## Footer
 
 - The footer provides links to EarthSavers' social media profiles on Facebook, Twitter, YouTube, and Instagram.
+- _blank property were used on the social media buttons, so they all open in a new tab after clicking
 
 ## External Resources
 
-- The webpage uses the Font Awesome icon library to improve transparency on the header buttons and on social media icons in the footer
+- The webpage uses the Font Awesome icon library to improve transparency.
+- The Font Awesome icons were used:
+  
+1. On the header buttons
+2. As custom bullet points in the descriptions next the buttons directing visitors to external links related to the relevant topics
+3. On social media icons in the footer
 
 ## Stylesheet
 
