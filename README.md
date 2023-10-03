@@ -2,7 +2,7 @@
 
 The EarthSavers website is intended to raise awareness about pressing environmental issues that threaten our planet and to inspire individuals and communities to take action and make a positive impact on the environment.
 
-## This website is for:
+## The target audience
 
 - **Environmental Enthusiasts:** For enthusiasts who care about the environment and want to stay informed about critical environmental challenges, this website provides valuable information and resources.
 
@@ -25,23 +25,31 @@ The EarthSavers website offers a range of features to help explore environmental
 ## Take Action Form
 
 - This page includes a form that users can fill out to express their interest in environmental action.
+  
 - The form includes fields for the user's full name, email address, phone number, location, preferred action area, frequency of participation, availability, preferred transportation, and a comments/message box to provide option for addig any more relevant information.
+  
 - Users can select their preferred action area from a dropdown menu and specify their frequency, availability, and transportation preferences.
+  
 - The form ends with a "Submit" button for users to submit their information.
-- In the HTML code "required" properties were used, to prevent users submitting empty or incomplete forms
+  
+- In the HTML code "required" properties were used, to prevent users submitting empty or incomplete forms.
 
 ## Footer
 
 - The footer provides links to EarthSavers' social media profiles on Facebook, Twitter, YouTube, and Instagram.
-- _blank property were used on the social media buttons, so they all open in a new tab after clicking
-
+  
+- _blank property were used on the social media buttons, so they all open in a new tab after clicking.
+  
 ## External Resources
 
 - The webpage uses the Font Awesome icon library to improve transparency.
+  
 - The Font Awesome icons were used:
   
 1. On the header buttons
+   
 2. As custom bullet points in the descriptions next the buttons directing visitors to external links related to the relevant topics
+
 3. On social media icons in the footer
 
 ## Stylesheet
@@ -51,3 +59,5 @@ The EarthSavers website offers a range of features to help explore environmental
 ## Favicon
 
 - The webpage includes a favicon to display a custom icon in the browser tab.
+  
+- The favicon is the same one that was used as the main logo positioned at the start of the header section.
