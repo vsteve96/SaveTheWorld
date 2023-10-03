@@ -27,8 +27,6 @@ The EarthSavers website offers a range of features to help explore environmental
 
 ## Take Action Form
 
-This repository contains the HTML code for the "Take Environmental Action" form on the EarthSavers website. This form allows users to express their interest in participating in various environmental initiatives. Below is an overview of the key components of the HTML code:
-
 - This page includes a form that users can fill out to express their interest in environmental action.
 - The form includes fields for the user's full name, email address, phone number, location, preferred action area, frequency of participation, availability, preferred transportation, and a comments/message box to provide option for addig any more relevant information.
 - Users can select their preferred action area from a dropdown menu and specify their frequency, availability, and transportation preferences.
