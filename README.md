@@ -68,7 +68,16 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - All the placed images were converted to .webp format and compressed further with TinyPNG to 
 
-- I'd 
 
+
+## Fixed bugs
+
+- In certain viewport sizes the navbar buttons were hiding each other when they clipped into new lines.
+
+![Screenshot of the navbar bug] (assets/images/documentation/navbarbuttonbug.png)
+
+- By simply adding some margin on the bottom with CSS the navbar buttons now appear nicely organized on smaller screens too.
+
+![Screenshot of the fixed navbar bug] (assets/images/documentation/navbarbuttonbugfixed.png)
+  
 ## Acknowledgements
-
