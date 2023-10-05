@@ -38,7 +38,7 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - The footer provides links to EarthSavers' social media profiles on Facebook, Twitter, YouTube, and Instagram.
   
-- _blank property were used on the social media buttons, so they all open in a new tab after clicking.
+- _blank property were used on the social media buttons, so they all open in a new tab after clicking, to prevent disruptive behavior from the website.
   
 ## External Resources
 
@@ -61,3 +61,14 @@ The EarthSavers website offers a range of features to help explore environmental
 - The webpage includes a favicon to display a custom icon in the browser tab.
   
 - The favicon is the same one that was used as the main logo positioned at the start of the header section.
+  
+## Credits
+
+- All images used in this project were free-to-use stock photos downloaded from pixabay.com and pexels.com.
+
+- All the placed images were converted to .webp format and compressed further with TinyPNG to 
+
+- I'd 
+
+## Acknowledgements
+

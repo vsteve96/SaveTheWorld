@@ -9,7 +9,6 @@ p {
     padding: 0;
 }
 
-/* Set a background color for the entire page */
 body {
     display: flex;
     flex-direction: column;
@@ -22,8 +21,8 @@ body {
 
 /* Style the main content container */
 main {
-    max-width: 95%;
-    margin: 5% auto;
+    max-width: 100%;
+    margin: 5%;
     padding: 30px;
     background-color: rgb(27, 67, 50);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -32,7 +31,7 @@ main {
 
 /* Style the section headings */
 h2 {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: rgb(32, 69, 41);
     margin-bottom: 20px;
 }
@@ -64,6 +63,12 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+/* Remove default underlining on the page title */
+header a {
+    text-decoration: none;
 }
 
 /* Style the logo */
@@ -74,7 +79,7 @@ header {
 }
 
 .maintitle {
-    font-size: 16px;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
     margin: 0 20px;
     letter-spacing: 2px;
@@ -84,15 +89,21 @@ header {
     text-decoration: none;
 }
 
+nav {
+    display: flex;
+}
+
 nav a {
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: rgb(84, 97, 55);
+    padding: 5px 8px;
+    background-color: rgb(96, 106, 78);
     font-size: 1.3rem;
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     margin-right: 15px;
+    /* Prevent buttons from wrapping to a new line */
+    white-space: nowrap;
 }
 
 nav a:hover {
@@ -120,7 +131,7 @@ nav a:hover {
     padding: 20px;
     border-radius: 10px;
     max-height: 100%;
-    width: 100%;
+    width: 90%;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -140,6 +151,7 @@ nav a:hover {
     /* Make lines clip to baseline */
     display: flex;
     align-items: baseline;
+    line-height: 1.5rem;
 }
 
 .description li i {
@@ -150,7 +162,7 @@ nav a:hover {
 .link-button {
     text-decoration: none;
     padding: 5px 10px;
-    background-color: rgb(135, 152, 106);
+    background-color: rgb(96, 106, 78);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
@@ -216,8 +228,9 @@ nav a:hover {
     cursor: pointer;
 }
 
-option:hover {
+#availability option {
     color: rgb(0, 0, 0);
+    background-color: red;
 }
 
 /* Style the footer */
@@ -269,17 +282,21 @@ footer p {
 
     nav {
         /* Stack nav buttons vertically on smaller screens */
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
     }
 
-    /* Make navigation buttons smaller on smaller screens */
+    /* Add spacing between lines when clipping */
     nav a {
-        margin-right: 15px;
         margin-bottom: 10px;
-        padding: 5px 10px;
-        font-size: 1.3rem;
-        /* Prevent buttons hiding each other when clipping */
-        line-height: 50px;
+        padding: 5px 8px;
     }
-}
+    
+@media (max-width: 340px) {
+    nav a {
+        /* Further reduce button size on very small screens to fit the navbar */
+        font-size: 0.8rem;
+        padding: 4px 6px;
+    }
