@@ -74,10 +74,10 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - In certain viewport sizes the navbar buttons were hiding each other when they clipped into new lines.
 
-![Screenshot of the navbar bug] (assets/images/documentation/navbarbuttonbug.png)
+![Screenshot of the navbar bug](assets/images/documentation/navbarbuttonbug.png)
 
 - By simply adding some margin on the bottom with CSS the navbar buttons now appear nicely organized on smaller screens too.
 
-![Screenshot of the fixed navbar bug] (assets/images/documentation/navbarbuttonbugfixed.png)
+![Screenshot of the fixed navbar bug](assets/images/documentation/navbarbuttonbugfixed.png)
   
 ## Acknowledgements
