@@ -79,6 +79,8 @@ The EarthSavers website offers a range of features to help explore environmental
 - By simply adding some margin on the bottom with CSS the navbar buttons now appear nicely organized on smaller screens too.
 
 ![Screenshot of the fixed navbar bug](assets/images/documentation/navbarbuttonbugfixed.png)
+
+- There were no submit confirmation page included on the website, so whenever the user submitted the form, they were directed to an error page.
   
 ## Acknowledgements
 
