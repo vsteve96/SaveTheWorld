@@ -203,13 +203,22 @@ nav a:hover {
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container input[type="tel"],
-.form-container textarea,
+.form-container textarea {
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+
 .form-container select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
+    resize: none;
 }
 
 /* Style the submit button */
@@ -283,16 +292,24 @@ footer p {
         max-width: 100%;
     }
 }
+
     /* Add spacing between lines when clipping */
     nav a {
-        margin-bottom: 10px;
-        padding: 5px 8px;
+    margin-bottom: 10px;
+    padding: 5px 8px;
+}
+    /* Move bullet points top and add spacing before li on smaller screens  */
+@media (max-width: 660px) {
+    .description li {
+        flex-direction: column;
+        margin-left: 0;
     }
+}
 
-    @media (max-width: 340px) {
-        nav a {
-            /* Further reduce button size on very small screens to fit the navbar */
-            font-size: 0.8rem;
-            padding: 4px 6px;
-        }
+@media (max-width: 340px) {
+    nav a {
+        /* Further reduce button size on very small screens to fit the navbar */
+        font-size: 0.8rem;
+        padding: 4px 6px;
+    }
 }

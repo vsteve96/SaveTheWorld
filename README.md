@@ -73,6 +73,8 @@ The EarthSavers website offers a range of features to help explore environmental
 CSS validator - Passed.
 ![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
 
+
+
 ## Fixed bugs
 
 - In certain viewport sizes the navbar buttons were hiding each other when they clipped into new lines.
