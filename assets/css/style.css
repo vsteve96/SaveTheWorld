@@ -282,7 +282,7 @@ footer p {
         flex-wrap: wrap;
         max-width: 100%;
     }
-
+}
     /* Add spacing between lines when clipping */
     nav a {
         margin-bottom: 10px;
@@ -295,3 +295,4 @@ footer p {
             font-size: 0.8rem;
             padding: 4px 6px;
         }
+}

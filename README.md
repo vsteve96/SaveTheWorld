@@ -68,7 +68,10 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - All the placed images were converted to .webp format and compressed further with TinyPNG to 
 
+## Testing
 
+CSS validator - Passed.
+![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
 
 ## Fixed bugs
 
