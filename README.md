@@ -81,3 +81,5 @@ The EarthSavers website offers a range of features to help explore environmental
 ![Screenshot of the fixed navbar bug](assets/images/documentation/navbarbuttonbugfixed.png)
   
 ## Acknowledgements
+
+- I'd like to express my gratitude to Graeme Taylor, my mentor, by helping me get through my first milestone project work, by his excellent guidance and support.
