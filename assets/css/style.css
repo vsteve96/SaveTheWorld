@@ -228,11 +228,6 @@ nav a:hover {
     cursor: pointer;
 }
 
-#availability option {
-    color: rgb(0, 0, 0);
-    background-color: red;
-}
-
 /* Style the footer */
 footer {
     background-color: rgb(27, 67, 50);
@@ -293,10 +288,10 @@ footer p {
         margin-bottom: 10px;
         padding: 5px 8px;
     }
-    
-@media (max-width: 340px) {
-    nav a {
-        /* Further reduce button size on very small screens to fit the navbar */
-        font-size: 0.8rem;
-        padding: 4px 6px;
-    }
+
+    @media (max-width: 340px) {
+        nav a {
+            /* Further reduce button size on very small screens to fit the navbar */
+            font-size: 0.8rem;
+            padding: 4px 6px;
+        }
