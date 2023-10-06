@@ -25,9 +25,13 @@ The EarthSavers website offers a range of features to help explore environmental
 ## Design
 
 - The colors have been set up to gain sufficient contrast on the website's appearance and to reflect the environmental topic.
-- All the color codes used on the website:
+- The following color codes were used on the website, they have been chosen to match the theme, and to ensure optimal contrast.
 
 ![Color palette](assets/images/documentation/colorpalette.png)
+
+- To create a structured layout for the placement of elements throughout the website I utilized Figma's wireframing tool.
+
+![Wireframe](assets/images/documentation/wireframe.png)
 
 ## Take Action Form
 
@@ -134,4 +138,4 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 ## Acknowledgements
 
-- I'd like to express my gratitude to Graeme Taylor, my mentor, by helping me get through my first milestone project work, by his excellent guidance and support.
+- I'd like to express my gratitude to Graeme Taylor, my mentor, for helping me get through my first milestone project work, by his excellent guidance and support.
