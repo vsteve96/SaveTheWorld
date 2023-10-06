@@ -187,7 +187,7 @@ nav a:hover {
 /* Style the form heading */
 .form-heading {
     color: rgb(32, 69, 41);
-    font-size: 24px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
@@ -298,6 +298,7 @@ footer p {
     margin-bottom: 10px;
     padding: 5px 8px;
 }
+
     /* Move bullet points top and add spacing before li on smaller screens  */
 @media (max-width: 660px) {
     .description li {
