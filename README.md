@@ -130,8 +130,8 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 ![Screenshot of the fixed navbar bug](assets/images/documentation/navbarbuttonbugfixed.png)
 
-- There were no submit confirmation page included on the website, so whenever the user submitted the form, they were directed to an error page.
-  
+- There were no submit confirmation page included on the website, so I added a "Thank you" page for improved user experience.
+
 ## Acknowledgements
 
 - I'd like to express my gratitude to Graeme Taylor, my mentor, by helping me get through my first milestone project work, by his excellent guidance and support.
