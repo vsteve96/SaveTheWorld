@@ -197,6 +197,7 @@ nav a:hover {
     margin-top: 10px;
     font-weight: bold;
     color: rgb(32, 69, 41);
+
 }
 
 /* Style form spans */
@@ -218,7 +219,6 @@ nav a:hover {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
-
 
 .form-container select {
     width: 100%;
@@ -245,13 +245,28 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* Style the footer */
+/* Style the thank you page */
+.thankyou-container {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thankyou-container image {
+    height: auto;
+}
+
+/* Style he footer */
 footer {
     background-color: rgb(27, 67, 50);
     text-align: center;
     padding: 20px 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    /* Push the footer to the bottom */
+    margin-top: auto;
 }
 
 footer p {
@@ -301,13 +316,13 @@ footer p {
     }
 }
 
-    /* Add spacing between lines when clipping */
-    nav a {
+/* Add spacing between lines when clipping */
+nav a {
     margin-bottom: 10px;
     padding: 5px 8px;
 }
 
-    /* Move bullet points top and add spacing before li on smaller screens  */
+/* Move bullet points top and add spacing before li on smaller screens  */
 @media (max-width: 660px) {
     .description li {
         flex-direction: column;

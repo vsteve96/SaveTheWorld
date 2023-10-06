@@ -66,12 +66,13 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - All images used in this project were free-to-use stock photos downloaded from pixabay.com and pexels.com.
 
-- All the placed images were converted to .webp format and compressed further with TinyPNG to 
+- All the placed images were converted to .webp format and compressed further with TinyPNG to optimize them.
 
 ## Testing
 
 CSS validator - Passed.
 ![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
+
 
 - EarthSavers Action Form
 
@@ -117,6 +118,7 @@ How to Use
 To ensure that the form functions correctly, I have tested the following scenarios:
 
 - All required fields are filled out correctly.
+- Responsibility testing on smaller devices, all the lines are clipping correctly and not expanding their container's width.
 - Submitting the form with missing required fields to verify that error messages are displayed.
 
 ## Fixed bugs
