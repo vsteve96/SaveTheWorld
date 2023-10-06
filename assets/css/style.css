@@ -199,6 +199,14 @@ nav a:hover {
     color: rgb(32, 69, 41);
 }
 
+/* Style form spans */
+.form-container span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(32, 69, 41);
+}
+
 /* Style form inputs, select, and textarea */
 .form-container input[type="text"],
 .form-container input[type="email"],

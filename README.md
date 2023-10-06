@@ -73,7 +73,51 @@ The EarthSavers website offers a range of features to help explore environmental
 CSS validator - Passed.
 ![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
 
+- EarthSavers Action Form
 
+Description
+
+The Take Action Form is designed to empower individuals to take action, if they're interested in participating in local environmental initiatives or supporting global conservation organizations.
+
+How to Use
+
+1. *Full Name*: Enter the full name in the "Full Name" field.
+
+2. *Email Address*: Provide the email address in the "Email Address" field, to contact the participants about relevant infos.
+
+3. *Phone Number*: Enter the phone number in the "Phone Number" field, this is for additional contact details.
+
+4. *Location*: Specify the location in the "Location" field, to assess where the participants are interested about any upcoming events.
+
+5. *Preferred Action Area*: Select the preferred area of environmental action from the dropdown menu under "Preferred action area." They can choose from options "Community Cleanup," "Reforestation," "Wildlife Conservation," or "Environmental Advocacy", which are the main environmental action areas mentioned on the website.
+
+6. *Frequency*: Indicate how often they are willing to participate. They have to select one of the following options:
+   - [x] One-Time
+   - [ ] Weekly
+   - [ ] Monthly
+   - [ ] Quarterly
+
+7. *Availability*: Choose their availability for environmental action. Also required.
+   - [x] Weekdays 
+   - [ ] Weekends
+   - [ ] Weekdays and Weekends
+
+8. *Preferred Transportation*: Select the preferred mode of transportation for environmental activities.
+   - [ ] Carpool
+   - [ ] Public Transport
+
+9. *Comments/Message*: For sharing any additional comments or messages.
+
+10. Click the "Submit" button to submit your form.
+
+11. After clicking the submit button, participants are redirected to the "Thank you" page.
+
+- Testing
+
+To ensure that the form functions correctly, I have tested the following scenarios:
+
+- All required fields are filled out correctly.
+- Submitting the form with missing required fields to verify that error messages are displayed.
 
 ## Fixed bugs
 
