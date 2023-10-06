@@ -112,9 +112,9 @@ nav a:hover {
 
 .image {
     max-width: 50%;
+    height: auto;
     display: flex;
     justify-content: center;
-    height: auto;
     border-radius: 10px;
 }
 
