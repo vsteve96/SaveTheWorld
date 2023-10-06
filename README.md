@@ -27,9 +27,11 @@ The EarthSavers website offers a range of features to help explore environmental
 - The colors have been set up to gain sufficient contrast on the website's appearance and to reflect the environmental topic.
 - The following color codes were used on the website, they have been chosen to match the theme, and to ensure optimal contrast.
 
+- 
 ![Color palette](assets/images/documentation/colorpalette.png)
 
 - To create a structured layout for the placement of elements throughout the website I utilized Figma's wireframing tool.
+- For the structural planning, I used the dimensions of the iPhone 13 as my reference.
 
 ![Wireframe](assets/images/documentation/wireframe.png)
 
