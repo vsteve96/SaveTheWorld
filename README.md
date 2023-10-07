@@ -18,6 +18,8 @@ The EarthSavers website offers a range of features to help explore environmental
 
 - **Inspiring Stories:** Visitors can discover stories of individuals and communities who have successfully taken action to protect our planet, providing inspiration for their own environmental efforts.
 
+- **Take Action Form:** Users can fill out the Take Action form to express their interest in environmental action.
+
 - **User-Friendly Design:** The website is created with a user-friendly design, making the navigation simple throughout the website's features.
 
 - **Responsive Layout:** The layout is created so visitors can experience effortless browsing across a range of devices, such as desktop computers, tablets, and mobile phones.
@@ -27,17 +29,12 @@ The EarthSavers website offers a range of features to help explore environmental
 - The colors have been set up to gain sufficient contrast on the website's appearance and to reflect the environmental topic.
 - The following color codes were used on the website, they have been chosen to match the theme, and to ensure optimal contrast.
 
-- 
 ![Color palette](assets/images/documentation/colorpalette.png)
 
 - To create a structured layout for the placement of elements throughout the website I utilized Figma's wireframing tool.
-- For the structural planning, I used the dimensions of the iPhone 13 as my reference.
+- For the structural planning, I used the dimensions of the iPhone 13 as my reference, following the mobile-first approach.
 
 ![Wireframe](assets/images/documentation/wireframe.png)
-
-## Take Action Form
-
-- This page includes a form that users can fill out to express their interest in environmental action.
   
 ## Footer
 
@@ -47,13 +44,13 @@ The EarthSavers website offers a range of features to help explore environmental
   
 ## External Resources
 
-- The webpage uses the Font Awesome icon library to improve transparency.
+- The webpage uses the Font Awesome icon library for improved transparency.
   
 - The Font Awesome icons were used:
   
 1. On the header buttons
-   
-2. As custom bullet points in the descriptions next the buttons directing visitors to external links related to the relevant topics
+
+2. As unique bullet points in the descriptions next the buttons directing visitors to external links related to the relevant topics
 
 3. On social media icons in the footer
 
@@ -75,9 +72,12 @@ The EarthSavers website offers a range of features to help explore environmental
 
 ## Testing
 
+HTML validator - Tested on every page - Passed.
+![Screenshot of the HTML Validator](assets/images/testing/htmltesting.png)
+
+
 CSS validator - Passed.
 ![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
-
 
 - EarthSavers Action Form
 
@@ -118,12 +118,12 @@ How to Use
 
 11. After clicking the submit button, participants are redirected to the "Thank you" page.
 
-- Testing
+Testing
 
 To ensure that the form functions correctly, I have tested the following scenarios:
 
 - All required fields are filled out correctly.
-- Responsibility testing on smaller devices, all the lines are clipping correctly and not expanding their container's width.
+- Responsibility testing on smaller devices, all the lines are clipping correctly and not expanding their container's width on any viewport size.
 - Submitting the form with missing required fields to verify that error messages are displayed.
 
 ## Fixed bugs
@@ -132,11 +132,15 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 ![Screenshot of the navbar bug](assets/images/documentation/navbarbuttonbug.png)
 
-- By simply adding some margin on the bottom with CSS the navbar buttons now appear nicely organized on smaller screens too.
+- By adding some margin on the bottom with CSS the navbar buttons now appear nicely organized on smaller screens too.
 
 ![Screenshot of the fixed navbar bug](assets/images/documentation/navbarbuttonbugfixed.png)
 
 - There were no submit confirmation page included on the website, so I added a "Thank you" page for improved user experience.
+
+## 404 Page ##
+
+The project contains a 404 error page, that follows the website's overall design, and makes it easy for the users to go back to the Home page.
 
 ## Acknowledgements
 
