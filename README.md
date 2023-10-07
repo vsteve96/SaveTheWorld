@@ -162,7 +162,7 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 - There were no submit confirmation page included on the website, so I added a "Thank you" page for improved user experience.
 
-## Known Issues {#known-issues}
+## Known Issues
 
 - After running the Google Lighthouse testing on the pages, the result is still showing lower performance score, due to "not properly sized images"
 - After many resizing and conversion attempts, the images now appear sharp, they are all responsive and their size is relatively small, but I still couldn't achieve higher score above the current value in Lighthouse.
