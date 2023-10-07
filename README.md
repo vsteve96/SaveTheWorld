@@ -91,7 +91,7 @@ Website tested on desktop and mobile devices in the following browsers:
 
 Every element appears correctly and every function works as intended.
 
-Google Lighthouse report
+## Google Lighthouse Report
 
 ### Desktop
 
