@@ -126,7 +126,7 @@ To ensure that the form functions correctly, I have tested the following scenari
 - Responsibility testing on smaller devices, all the lines are clipping correctly and not expanding their container's width on any viewport size.
 - Submitting the form with missing required fields to verify that error messages are displayed.
 
-## Fixed bugs
+## Fixed Bugs
 
 - In certain viewport sizes the navbar buttons were hiding each other when they clipped into new lines.
 
@@ -138,6 +138,11 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 - There were no submit confirmation page included on the website, so I added a "Thank you" page for improved user experience.
 
+## Known Issues
+
+- After running the Google Lighthouse testing on the pages, the result is still showing lower performance score, due to "not properly sized images"
+- After many resizing and conversion attempts, the images now appear sharp and their size is relatively small, but I still couldn't achieve higher score above the current value.
+  
 ## 404 Page ##
 
 The project contains a 404 error page, that follows the website's overall design, and makes it easy for the users to go back to the Home page.
