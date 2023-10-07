@@ -317,10 +317,10 @@ footer p {
     }
 }
 
-/* Add spacing between lines when clipping */
-nav a {
-    margin-bottom: 10px;
-    padding: 5px 8px;
+    /* Add spacing between lines when clipping */
+    nav a {
+        margin-bottom: 10px;
+        padding: 5px 8px;
 }
 
 /* Move bullet points top and add spacing before li on smaller screens  */

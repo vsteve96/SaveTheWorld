@@ -32,7 +32,7 @@ The EarthSavers website offers a range of features to help explore environmental
 ![Color palette](assets/images/documentation/colorpalette.png)
 
 - To create a structured layout for the placement of elements throughout the website I utilized Figma's wireframing tool.
-- For the structural planning, I used the dimensions of the iPhone 13 as my reference, following the mobile-first approach.
+- For the structural planning, I used the dimensions of the iPhone 13 as my reference, following the mobile-first development approach.
 
 ![Wireframe](assets/images/documentation/wireframe.png)
   
@@ -165,11 +165,11 @@ To ensure that the form functions correctly, I have tested the following scenari
 ## Known Issues
 
 - After running the Google Lighthouse testing on the pages, the result is still showing lower performance score, due to "not properly sized images"
-- After many resizing and conversion attempts, the images now appear sharp, they are all responsive and their size is relatively small, but I still couldn't achieve higher score above the current value in Lighthouse.
+- After many resizing and conversion attempts, the images now appear sharp, they are all responsive and their file sizes are relatively small, but I still couldn't achieve higher score above the current value in Lighthouse.
 
 ## 404 Page ##
 
-The project contains a 404 error page, that follows the website's overall design, and makes it easy for the users to go back to the Home page.
+The project contains a 404 error page, that follows the website's overall design, and makes it easy for the users to navigate back to the Home page.
 
 ## Acknowledgements
 
