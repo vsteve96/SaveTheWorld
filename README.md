@@ -29,12 +29,12 @@ The EarthSavers website offers a range of features to help explore environmental
 - The colors have been set up to gain sufficient contrast on the website's appearance and to reflect the environmental topic.
 - The following color codes were used on the website, they have been chosen to match the theme, and to ensure optimal contrast.
 
-![Color palette](assets/images/documentation/colorpalette.png)
+![Color palette](media/documentation/colorpalette.png)
 
 - To create a structured layout for the placement of elements throughout the website I utilized Figma's wireframing tool.
 - For the structural planning, I used the dimensions of the iPhone 13 as my reference, following the mobile-first development approach.
 
-![Wireframe](assets/images/documentation/wireframe.png)
+![Wireframe](media/documentation/wireframe.png)
   
 ## Footer
 
@@ -74,12 +74,12 @@ The EarthSavers website offers a range of features to help explore environmental
 
 HTML validator - Tested on every page - Passed.
 
-![Screenshot of the HTML Validator](assets/images/testing/htmltesting.png)
+![Screenshot of the HTML Validator](media/testing/htmltesting.png)
 
 
 CSS validator - Passed.
 
-![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
+![Screenshot of the CSS Validator](media/testing/csstesting.png)
 
 #### Browsers
 
@@ -95,11 +95,11 @@ Every element appears correctly and every function works as intended.
 
 ### Desktop
 
-![Screenshot of Lighthouse Report](assets/images/testing/lighthouse-report.png)
+![Screenshot of Lighthouse Report](media/testing/lighthouse-report.png)
 
 ### Mobile devices
 
-![Screenshot of Lighthouse Report Mobile](assets/images/testing/lighthouse-report-mobile.png)
+![Screenshot of Lighthouse Report Mobile](media/testing/lighthouse-report-mobile.png)
 
 [Known Issues](#known-issues)
 
@@ -156,11 +156,11 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 - In certain viewport sizes the navbar buttons were hiding each other when they clipped into new lines.
 
-![Screenshot of the navbar bug](assets/images/documentation/navbarbuttonbug.png)
+![Screenshot of the navbar bug](media/documentation/navbarbuttonbug.png)
 
 - By adding some margin on the bottom with CSS the navbar buttons now appear nicely organized on smaller screens too.
 
-![Screenshot of the fixed navbar bug](assets/images/documentation/navbarbuttonbugfixed.png)
+![Screenshot of the fixed navbar bug](media/documentation/navbarbuttonbugfixed.png)
 
 - There were no submit confirmation page included on the website, so I added a "Thank you" page for improved user experience.
 
