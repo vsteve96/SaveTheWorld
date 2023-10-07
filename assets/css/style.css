@@ -32,7 +32,7 @@ main {
 /* Style the section headings */
 h2 {
     font-size: 1.5rem;
-    color: rgb(32, 69, 41);
+    color: rgb(27, 67, 50);
     margin-bottom: 20px;
 }
 
@@ -108,7 +108,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(228, 1, 1);
+    background-color: rgb(187, 94, 82); 
 }
 
 .image {
@@ -173,7 +173,7 @@ nav a:hover {
 }
 
 .link-button:hover {
-    background-color: rgb(228, 1, 1);
+    background-color: rgb(187, 94, 82);
 }
 
 /* Style the take action form */
@@ -233,7 +233,7 @@ nav a:hover {
 /* Style the submit button */
 .submit-button {
     padding: 10px 20px;
-    background-color: rgb(83, 116, 37);
+    background-color: rgb(223, 240, 216);
     border: none;
     border-radius: 5px;
     font-size: 18px;
@@ -242,7 +242,7 @@ nav a:hover {
 }
 
 .submit-button:hover {
-    background-color: rgb(228, 1, 1);
+    background-color: rgb(187, 94, 82);
     cursor: pointer;
 }
 
@@ -293,7 +293,7 @@ footer p {
 }
 
 #social-networks a:hover {
-    color: rgb(228, 1, 1)
+    color: rgb(187, 94, 82);
 }
 
 /* Media Queries */
