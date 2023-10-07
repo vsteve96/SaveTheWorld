@@ -174,6 +174,14 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 The project contains a 404 error page, that follows the website's overall design, and makes it easy for the users to navigate back to the Home page.
 
+## Deployment ##
+
+The site was deployed to GitHub pages.
+
+- In the GitHub repository, navigated to the Settings tab
+- From the source section drop-down menu, selected the Master Branch
+- Once the master branch has been selected, the page has been automatically refreshed with a detailed ribbon display indicating the successful deployment.
+
 ## Acknowledgements
 
 I'd like to express my gratitude to Graeme Taylor, my mentor, for helping me get through my first milestone project work, by his excellent guidance and support.
