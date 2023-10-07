@@ -103,6 +103,8 @@ Google Lighthouse report
 
 [Known Issues](#known-issues)
 
+- Buttons leading to external links have been tested on desktop and mobile interface as well, all open correctly in a new tab.
+
 ## EarthSavers Action Form ##
 
 Description
@@ -142,7 +144,7 @@ How to Use
 
 11. After clicking the submit button, participants are redirected to the "Thank you" page.
 
-Testing
+### Testing
 
 To ensure that the form functions correctly, I have tested the following scenarios:
 
@@ -166,6 +168,7 @@ To ensure that the form functions correctly, I have tested the following scenari
 
 - After running the Google Lighthouse testing on the pages, the result is still showing lower performance score, due to "not properly sized images"
 - After many resizing and conversion attempts, the images now appear sharp, they are all responsive and their file sizes are relatively small, but I still couldn't achieve higher score above the current value in Lighthouse.
+- This issue could require further improvements on the responsive images.
 
 ## 404 Page ##
 
@@ -173,4 +176,4 @@ The project contains a 404 error page, that follows the website's overall design
 
 ## Acknowledgements
 
-- I'd like to express my gratitude to Graeme Taylor, my mentor, for helping me get through my first milestone project work, by his excellent guidance and support.
+I'd like to express my gratitude to Graeme Taylor, my mentor, for helping me get through my first milestone project work, by his excellent guidance and support.
