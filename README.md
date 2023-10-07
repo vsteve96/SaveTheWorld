@@ -73,10 +73,12 @@ The EarthSavers website offers a range of features to help explore environmental
 ## Testing
 
 HTML validator - Tested on every page - Passed.
+
 ![Screenshot of the HTML Validator](assets/images/testing/htmltesting.png)
 
 
 CSS validator - Passed.
+
 ![Screenshot of the CSS Validator](assets/images/testing/csstesting.png)
 
 #### Browsers
@@ -98,6 +100,8 @@ Google Lighthouse report
 ### Mobile devices
 
 ![Screenshot of Lighthouse Report Mobile](assets/images/testing/lighthouse-report-mobile.png)
+
+Know issues [link](#-known-issues)
 
 ## EarthSavers Action Form ##
 
